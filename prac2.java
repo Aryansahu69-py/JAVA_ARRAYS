@@ -6,7 +6,8 @@ import java.util.*;
 public class prac2 {
     public static void prime(int n) {
         int count=0;
-        for (int i = 2; i < n; i++) {
+        
+        for (int i = 2; i*i < n; i++) {
                 int b = n%i;
                 if (b==0){
                     count +=1;
