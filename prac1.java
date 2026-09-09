@@ -9,7 +9,16 @@ public class prac1 {
         return temp;
     }
     public static void main(String[] args){
-        
+        int n= 145;
+        int temp = n;
+        int sum=0;
+        while(n>0){
+            int a= n %10;
+            sum +=fact(a);
+            n /=10;
+            }
+            System.out.println(sum);
+            System.out.println(sum == temp ? "Strong Number" :"Not a Strong Number");
     }
     
 }
