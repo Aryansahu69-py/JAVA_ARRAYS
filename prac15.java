@@ -11,6 +11,7 @@ public class prac15 {
             int m = (s+e)/2;
             if(arr[m] == target){
                 ans = m ;
+                break;
             }else if(arr[m] < target) {
                 s = m+1;
             }else{
