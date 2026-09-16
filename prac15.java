@@ -1,10 +1,11 @@
 package JAVA_ARRAYS;
 //learning the binary search
+/*In this Search type we use log(n) steps but linear search takes n steps */
 public class prac15 {
     public static void main(String[] args) {
         int arr[] = {1,5,3,8,9,7};
         int ans = -1 ; 
-        int target = 9 ; 
+        int target = 10 ; 
         int n = arr.length ; 
         int s = 0  , e = n-1 ; 
         while(s<=e){
